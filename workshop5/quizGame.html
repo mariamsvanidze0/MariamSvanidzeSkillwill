@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="./styles/quiz.css">
+</head>
+<body>
+    <div class="quiz">
+        <p id="quest1">What is the capital of India?</p>
+        <button class="answer" data-correct="true">New Delhi</button>
+        <button class="answer">Agra</button>
+
+        <p id="quest2">What is the human body’s largest organ?</p>
+        <button class="answer">Kidneys</button>
+        <button class="answer" data-correct="true">Skin</button>
+
+        <p id="quest3">What year was the first iPhone released?</p>
+        <button class="answer" data-correct="true">2007</button>
+        <button class="answer">2003</button>
+
+        <p id="quest4">In Greek mythology, who was known as the messenger of the gods?</p>
+        <button class="answer">Zeus</button>
+        <button class="answer" data-correct="true">Hermes</button>
+
+        <p id="quest5">In chess, what direction can a bishop move?</p>
+        <button class="answer" data-correct="true">Diagonally</button>
+        <button class="answer">Forward</button>
+
+        <p id="quest6">What’s the shortcut for the paste function on most computers?</p>
+        <button class="answer" data-correct="true">Ctrl+V</button>
+        <button class="answer">Alt+V</button>
+    </div>
+    <div>
+        <p>Score: <span id="score">0</span></p>
+    </div>
+    <script src="./scripts/quizGame.js"></script>
+</body>
+</html>
