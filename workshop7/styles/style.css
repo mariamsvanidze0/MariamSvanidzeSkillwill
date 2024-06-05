@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bedcf6;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    
+}
+
+.container {
+    text-align: center;
+}
+
+.main-text {
+    color: #ff69b4;
+    font-size: 3em;
+}
+
+.cute-text {
+    color: #ff69b4;
+    font-size: 2em;
+    transition: color 0.5s ease;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ffb6c1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff69b4;
+    color: #fff;
+}
