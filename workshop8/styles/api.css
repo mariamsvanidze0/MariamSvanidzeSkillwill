@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f3f4f6;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+h1 {
+    color: #1f2937;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    border-bottom: 2px solid #3b82f6;
+    padding-bottom: 10px;
+}
+
+#posts {
+    text-align: left;
+}
+
+.post {
+    background: #e5e7eb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.post h2 {
+    color: #3b82f6;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.post p {
+    color: #374151;
+    line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e5e7eb;
+}
