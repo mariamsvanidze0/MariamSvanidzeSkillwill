@@ -1,0 +1,14 @@
+{
+  "name": "workshop9",
+  "version": "1.0.0",
+  "description": "My first react project ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mariam Svanidze",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.12.0"
+  }
+}
