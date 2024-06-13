@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Shop Async Example</title>
+    <link rel="stylesheet" href="./styles/toyStore.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-text">Welcome to the Toy Shop!</h1>
+        <div class="input-group">
+            <label for="makeDelay">Time to make a toy (ms):</label>
+            <input type="number" id="makeDelay" value="3000">
+        </div>
+        <div class="input-group">
+            <label for="deliverDelay">Time to deliver toys (ms):</label>
+            <input type="number" id="deliverDelay" value="2000">
+        </div>
+        <div class="input-group">
+            <label for="sellDelay">Time to sell a toy (ms):</label>
+            <input type="number" id="sellDelay" value="1000">
+        </div>
+        <button id="startAsyncButton">Start Making Toys</button>
+        <div id="asyncContent"></div>
+    </div>
+    <script src="./scripts/toyStore.js"></script>
+</body>
+</html>
