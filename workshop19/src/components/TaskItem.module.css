@@ -1,0 +1,37 @@
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .taskItem span {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .taskItem span.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .taskItem button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  .editButton {
+    color: #ffc107;
+  }
+  
+  .deleteButton {
+    color: #dc3545;
+  }
+  
