@@ -1,0 +1,47 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .addButton, .editButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .addButton {
+    background-color: #28a745;
+  }
+  
+  .editButton {
+    background-color: #007bff;
+  }
+  
+  @media (max-width: 600px) {
+    .formContainer {
+      flex-direction: column;
+    }
+  
+    .taskInput {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .addButton, .editButton {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,153 @@
+/* App.module.css */
+.appContainer {
+  font-family: 'Arial', sans-serif;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.appTitle {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.taskInput {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.addButton, .editButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.addButton {
+  background-color: #28a745;
+}
+
+.editButton {
+  background-color: #007bff;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.taskItem span {
+  flex: 1;
+  cursor: pointer;
+}
+
+.taskItem span.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.taskItem button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.editButton {
+  color: #ffc107;
+}
+
+.deleteButton {
+  color: #dc3545;
+}
+
+@media (max-width: 600px) {
+  .formContainer {
+    flex-direction: column;
+  }
+
+  .taskInput {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .addButton, .editButton {
+    width: 100%;
+  }
+}
+/* TaskForm.module.css */
+.formContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.taskInput {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.addButton, .editButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.addButton {
+  background-color: #28a745;
+}
+
+.editButton {
+  background-color: #007bff;
+}
+
+@media (max-width: 600px) {
+  .formContainer {
+    flex-direction: column;
+  }
+
+  .taskInput {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .addButton, .editButton {
+    width: 100%;
+  }
+}
+

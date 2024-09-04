@@ -1,0 +1,60 @@
+.todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-text {
+    flex-grow: 1;
+    text-align: left;
+    margin: 0;
+    color: #333;
+  }
+  
+  .todo-text.done {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .todo-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .todo-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-buttons .done-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .todo-buttons .done-button:hover {
+    background-color: #218838;
+  }
+  
+  .todo-buttons .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .todo-buttons .delete-button:hover {
+    background-color: #c82333;
+  }
+  
