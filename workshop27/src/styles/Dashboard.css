@@ -1,0 +1,10 @@
+.dashboard-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dashboard-message {
+    font-size: 20px;
+    color: #555;
+  }
+  
